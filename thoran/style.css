@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+}
+
+/* container */
+.thorana {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+/* 🧘 center */
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buddha {
+  width: 2000px;
+  position: relative;
+  z-index: 2;
+}
+
+.halo {
+  position: absolute;
+  width: 475px;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* 🔴 panels */
+.panel {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+}
+
+/* 🔴 GIF BACK */
+.gif {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* 🎬 VIDEO FRONT */
+.video-box {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+/* video fit */
+.video-box video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* positions */
+.left1 {
+  top: 5%;
+  left:20%;
+}
+
+.left2 {
+  top: 35%;
+  left:5%;
+}
+
+.right1 {
+  top: 5%;
+  right:20%;
+}
+
+.right2 {
+  top: 35%;
+  right: 5%;
+}
+.bg-video {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1500px;
+}
